@@ -3,12 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Telebot Web App</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+        }
+
+        body{
+           font-weight: 200;
+           color: var(--tg-theme-text-color);
+           background: var(--tg-theme-bg-color);
+        }
+
+        #main{
+           width: 100%;
+           padding: 20px;
+           text-align: center;
+        }
+
+        #img{
+           width: 7%;
+           margin: 20px;
+        }
+
+        #text{
+            width: 40%;
+            position: relative;
+            left: 30%;
+            margin-bottom: 1%;
+
+        }
+    </style>
+
+
+
+
 </head>
 <body>
 <div id="main">
     <h1>Magasin en ligne</h1>
-    <img src="image.png" alt="image">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid culpa deserunt distinctio, earum, esse exercitationem fugit illo ipsam ipsum iste minima molestias mollitia nam optio perferendis praesentium quasi qui quis quo repudiandae sequi sint soluta unde vitae voluptatem voluptates voluptatibus. Assumenda consectetur ex fugit harum, libero optio rem unde voluptatibus.</p>
+    <img src="image.png" alt="image" id="img">
+    <div id="text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid culpa deserunt distinctio, earum, esse exercitationem fugit illo ipsam ipsum iste minima molestias.</p>
+    </div>
     <button id="buy">Acheter</button>
 </div>
 </body>
