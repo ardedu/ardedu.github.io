@@ -141,15 +141,15 @@
         let email = document.getElementById("user_email").value;
         let phone = document.getElementById("user_phone").value;
 
-        if(name.length) < 5 {
+        if(name.length  < 5 ){
             document.getElementById("error").innerText = 'Erreur dans le nom';
             return;
         }
-        if(email.length) < 5 {
-            document.getElementById("error").innerText = 'Erreur dans l'email'';
+        if(email.length  < 5 ){
+            document.getElementById("error").innerText = "Erreur dans l'email";
             return;
         }
-        if(phone.length) <10 {
+        if(phone.length  <10 ){
             document.getElementById("error").innerText = 'Erreur dans le numéro de téléphone';
             return;
         }
